@@ -1,0 +1,78 @@
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git init
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git status
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % touch file1.txt
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git add .
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git commit -m "A text file created"
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git remote add origin git@github.com:vbekarevich1980/GitHubHometask.git
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git remote -v
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git pull
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push origin master
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push --set-upstream origin master
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push -f -u origin master
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git checkout -b develop
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git checkout -b feature  
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git branch
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % open file1.txt
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git commit -am "One line was added to file1.txt"
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push --set-upstream origin feature
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % cd ..
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro epam % mkdir Git
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro epam % cd Git
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHomework % git clone git@github.com:vbekarevich1980/GitHubHometask.git
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push --set-upstream origin develop 
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push --set-upstream origin feature
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask %(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git pull
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git checkout develop
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git checkout -b another_feature
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git checkout feature
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % open file1.txt
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git checkout another_feature
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % open file1.txt
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git commit -am "Another feature line was added to the file"
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push --set-upstream origin another_feature
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git checkout develop
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git merge feature
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git merge another_feature
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git log
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % git push
+
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % touch commands.txt
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % open commands.txt
+(base) vitali.bekarevich@Vitali-Bekarevich-MacBook-Pro GitHubHometask % 
